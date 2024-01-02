@@ -22,7 +22,7 @@ C# 8 or later (If using an earlier version, rewrite the switch expressions)
   - The Packet's address contains the address pattern.
   - The Packet's arguments contain the OSC arguments.
     - Since the value of each argument is upcasted to `object`, cast down by checking the `type` field or using the `is` keyword.
-    - Refer to the [Packet.Argument](./OSCPacket.cs) class's `ToString()` method for supported types.
+    - Refer to the [Packet.Argument](./OSCPacket.cs) struct's `ToString()` method for supported types.
 ```csharp
 using OSCPacket;
 
